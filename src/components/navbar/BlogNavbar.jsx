@@ -1,8 +1,12 @@
+
 import React from "react";
+import { useState } from "react";
 import { Button, Container, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./styles.css";
 const NavBar = (props) => {
+  
+
   return (
     <Navbar expand="lg" className="blog-navbar" fixed="top">
       <Container className="justify-content-between">
@@ -10,6 +14,7 @@ const NavBar = (props) => {
           <img className="blog-navbar-brand" alt="logo" src="logo.svg" />
         </Navbar.Brand>
 
+    
         <Button
           as={Link}
           to="/new"
@@ -34,3 +39,4 @@ const NavBar = (props) => {
 };
 
 export default NavBar;
+

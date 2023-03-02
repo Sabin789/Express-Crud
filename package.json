@@ -19,7 +19,9 @@
     "react-router-dom": "^6.5.0",
     "react-scripts": "5.0.1",
     "save-dev": "^0.0.1-security",
-    "uniqid": "^5.4.0"
+    "uniqid": "^5.4.0",
+    "express-validator": "^6.15.0",
+    "http-errors": "^2.0.0"
   },
   "main": "index.js",
   "type": "module",
